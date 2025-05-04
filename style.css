@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('pict/fnt.ttf') format('truetype'); 
+}
+body {
+    font-family: 'CustomFont', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: 'CustomFont', serif; 
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #060606;
+    color: rgb(3, 150, 18);
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(4, 146, 35);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 5px;
+    margin-top: 0px;
+    background-image: url('pict/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
